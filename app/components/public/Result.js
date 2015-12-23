@@ -25,9 +25,11 @@ const Result = React.createClass({
                     <div className="card-panel">
                         <h3>
                             Snow, what a lovely representation of the solid aggregate state of H<sub>2</sub>O!
-                            <br />
-                            There are so many different kinds of snow: Fresh, Boot-Packed, Blue, Corn, Dust On Crust, Firm, Groomed, Hard-Packed, Slough, Chowder, and everyone's favorite: Champagne Powder.
                         </h3>
+                        <h5>
+                            There are so many different kinds of snow: Fresh, Boot-Packed, Blue, Corn, Dust On Crust, Firm, Groomed, Hard-Packed, Slough, Chowder, and everyone's favorite: Champagne Powder.
+                        </h5>
+                        <br />
                         <h5>
                             But nevermind all 99 words for snow, here is the important part: Every snow flake is unique and so are you... Wait! Stop! My gosh, this is waaaay too cheesy.
                         </h5>
