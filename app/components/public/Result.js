@@ -5,7 +5,7 @@ import Reflux from 'reflux';
 
 import _ from 'lodash';
 
-const Week = React.createClass({
+const Result = React.createClass({
         contextTypes: {
           router: React.PropTypes.func
         },
@@ -35,8 +35,13 @@ const Week = React.createClass({
                         <h5>
                             Here is what I wanted to say: Champagne Powder isn't the same without you. So we are making a trip to Südtirol in March. And you are coming with us!
                         </h5>
+                        <br />
+                        <br />
+                        <a onClick={this.handleClick} className="waves-effect waves-light btn">Restart</a>
                     </div>
                 </div>
         );
     }
 });
+
+export default Result;

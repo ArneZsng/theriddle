@@ -12,9 +12,11 @@ const Home = React.createClass({
       router: React.PropTypes.func
     },
 
-    handleInputChange: function() {
-      console.log(inputValue)
-      if (inputValue.toUpperCase() == "SNOW") {
+    handleInputChange: function(event) {
+      var value = event.target.value
+      console.log(value)
+      if (value.toUpperCase() == "SNOW") {
+        console.log(true)
         this.context.router.transitionTo('result');
       }
     },
@@ -22,7 +24,7 @@ const Home = React.createClass({
     render() {
         var inputValue = this.state.value;
         return (
-            <div className="row section-type">
+            <div className="row main">
                 <div className="col s12">
                     <h1>
                       Feathers, I am as light,
