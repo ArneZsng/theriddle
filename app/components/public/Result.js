@@ -35,7 +35,7 @@ const Result = React.createClass({
                         </h5>
                         <br />
                         <h5>
-                            Here is what I wanted to say: Champagne Powder isn't the same without you. So we are making a trip to Südtirol in March. And you are coming with us!
+                            Here is what I wanted to say: Champagne Pow isn't the same without you. So we are making a trip to Südtirol in March. And you are coming with us!
                         </h5>
                         <br />
                         <br />

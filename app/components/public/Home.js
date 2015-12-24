@@ -25,17 +25,20 @@ const Home = React.createClass({
         var inputValue = this.state.value;
         return (
             <div className="row main">
-                <div className="col s12">
-                    <h1>
-                      Feathers, I am as light,
-                      But quite heavy if squeezed tight.
-                      I am seen as clean and pure,
-                      but often talked about with dirty terms.
-                      What am I?
-                    </h1>
+                <div className="background">
                 </div>
-                <div className="col s12">
-                    <input type="text" value={inputValue} onChange={this.handleInputChange} defaultValue="Answer!" />
+                <div className="col col-sm-offset-1 s10">
+                    <h3 className="riddle">
+                      Feathers, I am as light,<br />
+                      But quite heavy if squeezed tight.<br />
+                      I am seen as clean and pure,<br />
+                      but often talked about with dirty terms.<br />
+                      What am I?<br />
+                      <br />
+                    </h3>
+                    <h3>
+                      <input type="text" value={inputValue} onChange={this.handleInputChange} defaultValue="Answer!" />
+                    </h3>
                 </div>
             </div>
         );
