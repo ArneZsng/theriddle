@@ -28,17 +28,17 @@ const Home = React.createClass({
                 <div className="background">
                 </div>
                 <div className="col col-sm-offset-1 s10">
-                    <h3 className="riddle">
+                    <h4 className="riddle">
                       Feathers, I am as light,<br />
                       But quite heavy if squeezed tight.<br />
                       I am seen as clean and pure,<br />
                       but often talked about with dirty terms.<br />
                       What am I?<br />
                       <br />
-                    </h3>
-                    <h3>
+                    </h4>
+                    <h4>
                       <input type="text" value={inputValue} onChange={this.handleInputChange} defaultValue="Answer!" />
-                    </h3>
+                    </h4>
                 </div>
             </div>
         );
